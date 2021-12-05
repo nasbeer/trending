@@ -1,7 +1,8 @@
 function MainNav() {
     const style = {
         background: "#0d1117",
-        boxShadow: "0 1px 0 rgba(0,0,0,0.1)"
+        boxShadow: "0 1px 0 rgba(0,0,0,0.1)",
+        display:'none',
     }
     return (
         <div className="sticky top-0 z-20 box-border" style={{...style}}>

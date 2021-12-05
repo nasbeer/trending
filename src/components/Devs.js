@@ -28,7 +28,7 @@ function Devs() {
                 <div>
                     {
                         isLoading && (
-                            <p className="text-gray-400 p-4">Loading...</p>
+                            <p className="text-gray-400 p-4 pt-4 text-center"><br/>Loading...</p>
                         )
                     }
                     {

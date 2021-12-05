@@ -9,9 +9,10 @@ function Footer() {
     return (
         <div className="footer container container-lg">
             <div className="relative flex flex-row-reverse lg:flex-row flex-wrap lg:flex-nowrap justify-center lg:justify-between pt-10 pb-2 mt-10 text-xs border-t border-gray-800 text-gray-400">
+                <p className="text-left"> Recreated by <a className=" text-blue-400" href="https://www.nasbeer.com/">Nasbeer Ahammed</a></p>
                 <ul className="list-none flex flex-wrap w-full lg:w-5/12 justify-center lg:justify-between mb-2 lg:mb-0">
                     <li className="mr-4 lg:mr-0 text-gray-400">
-                        © {year} GitHub, Inc.
+                  © {year} GitHub, Inc.
                     </li>
                     <li className="mr-4 lg:mr-0 text-blue-400 hover:underline">
                         <a href="https://docs.github.com/en/github/site-policy/github-terms-of-service">Terms</a>

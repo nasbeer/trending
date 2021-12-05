@@ -26,7 +26,7 @@ function Repo() {
                 <div>
                     {
                         isLoading && (
-                            <p className="text-gray-400 p-4">Loading...</p>
+                            <p className="text-gray-400 p-4 text-center pt-5"><br/>Loading...</p>
                         )
                     }
                     {

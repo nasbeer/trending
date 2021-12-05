@@ -1,12 +1,14 @@
 import { Icon } from '@iconify/react';
-import StarBtn from "./StarBtn"
+import StarBtn from "./StarBtn";
+import SponsorBtn from "./SponsorBtn";
 
 function RepoItem({ repo }) {
     return (
         <article className="border-gray-500 border border-t-0 p-4 break-words bg-clip-border border-opacity-30">
             <div className="float-right">
                 <div className="block">
-                    <StarBtn />
+                <SponsorBtn />
+                <StarBtn />
                 </div>
             </div>
             <h1 className="leading-tight font-semibold md:text-xl">
@@ -45,7 +47,7 @@ function RepoItem({ repo }) {
                         </span>
                     )
                 }
-
+               
                 <span className="inline-block sm:float-right">
                     <Icon className="align-text-bottom inline-block overflow-visible text-sm mr-1" icon="octicon:star-16" height={16} width={16} />
                     {repo.starsSince} stars today
