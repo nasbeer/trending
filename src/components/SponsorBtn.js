@@ -13,7 +13,7 @@ function SponsorBtn() {
 
                 (!sponsor) ? (
                     <>
-                       <a href="https://github.com/sponsors/community" target="_blank"> <Icon className="text-pink-400 mr-1 md:mr-1 align-text-bottom inline-block overflow-visible" icon="octicon:heart-16" height={16} width={16} />
+                       <a href="https://github.com/sponsors/community" > <Icon className="text-pink-400 mr-1 md:mr-1 align-text-bottom inline-block overflow-visible" icon="octicon:heart-16" height={16} width={16} />
                         <span className="hidden md:inline font-medium"> Sponsor </span></a>
                     </>
                     ) : (
