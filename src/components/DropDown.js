@@ -4,6 +4,8 @@ import { Popover } from '@headlessui/react'
 
 function DropDown({ label, options }) {
     const [selOpt, setSelOpt] = useState('Any')
+    
+   const options1 = ['Daily', 'Weekly','Monthly']
     return (
         <>
             <Popover className="relative">
@@ -13,14 +15,17 @@ function DropDown({ label, options }) {
                     </div>
                 </Popover.Button>
 
-                {/* <Popover.Panel className="absolute z-10">
-                    <div className="grid grid-cols-2">
-                        <a href="/analytics">Analytics</a>
-                        <a href="/engagement">Engagement</a>
-                        <a href="/security">Security</a>
-                        <a href="/integrations">Integrations</a>
+                <Popover.Panel className="absolute bg-gray z-10 border-gray-500 border rounded-md ">
+                    <div className="grid grid-cols-12 text-right items-right">
+                        <label  className="text-gray-400 hover:text-gray-200 flex items-center text-sm sm:px-4">Select a {label}</label>
+                    
+                        
+                        
                     </div>
-                </Popover.Panel> */}
+                    
+                </Popover.Panel>
+
+               
             </Popover>
 
 
