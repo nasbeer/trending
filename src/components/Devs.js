@@ -16,7 +16,7 @@ function Devs() {
     return (
         <div className="container container-lg mx-auto py-10 px-4 font-sans">
             <div className="box border rounded-md border-gray-600">
-                <div className="flex flex-col md:items-center md:flex-row md:justify-between border-gray-500 border rounded-md p-4 bg-gray-600 bg-opacity-25 border-opacity-40">
+                <div className="flex flex-col md:items-center md:flex-row md:justify-between border-gray-500 border rounded-t-md p-4 bg-gray-600 bg-opacity-25 border-opacity-40">
                     {/* Buttons for repo and developer */}
                     <Nav />
                     <div className="flex flex-col sm:flex-row md:items-center justify-items-end mt-4 md:mt-0">
